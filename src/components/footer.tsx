@@ -3,13 +3,16 @@ import logo from "../images/logo.png";
 import { FaInstagram } from "react-icons/fa";
 import { AiFillTikTok, AiFillFacebook } from "react-icons/ai";
 import { Classes } from "../utils/tailwindPredefs";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-bgLight py-3">
+    <footer className="bg-bgLight py-3 z-20">
       <div className="flex flex-col justify-center items-center text-center px-6">
         <div>
-          <img className="" src={logo} alt="Logo da página" />
+          <NavLink to="/">
+            <img className="" src={logo} alt="Logo da página" />
+          </NavLink>
         </div>
         <h1 className="text-bgWhite font-medium text-xl pt-2">
           Siga nossas redes sociais:
