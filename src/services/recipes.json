@@ -1,0 +1,86 @@
+
+{
+    "recipes":[
+        {
+            "id": 1,
+            "name": "Bolo de cenoura",
+            "tags": ["doce", "bolo", "forno"],
+            "image": "../images/bolo_cenoura.png",
+            "ingredients":[
+                "3 cenouras médias",
+                "1/2 xícara de óleo",
+                "4 ovos",
+                "2 xícaras de açucar",
+                "2 xícaras e 1/2 de farinha de trigo",
+                "1 colher de sopa de fermento em pó",
+                "150gr de chocolate meio amargo",
+                "1 caixa de creme de leite"
+            ],
+            "preparation": [
+                "Em um liquidificador, adicione a cenoura, os ovos e o óleo, depois bata.",
+                "Acrescente o açúcar e bata novamente por 5 minutos.",
+                "Em uma tigela ou na batedeira, adicione a farinha de trigo e depois misture novamente.",
+                "Acrescente o fermento e misture lentamente com uma colher.",
+                "Asse em um forno preaquecido a 180° C por aproximadamente 40 minutos.",
+                "Para a cobertura: em um recepiente misture o chocolate e o creme de leite, leve ao microondas de 30 em 30 segundos ate que derreta."
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Brigadeiro",
+            "tags": ["doce"],
+            "image": "../images/brigadeiro.png",
+            "ingredients":[
+                "1 caixa de leite condensado",
+                "5 colheres de sopa de chocolate em pó",
+                "1 colher de sopa de margarina",
+                "Chocolate granulado"
+            ],
+            "preparation": [
+                "Em uma panela funda, acrescente o leite condensado, a margarina e o chocolate em pó.",
+                "Cozinhe em fogo médio e mexa até que o brigadeiro comece a desgrudar da panela.",
+                "Deixe esfriar e faça pequenas bolas com a mão passando a massa no chocolate granulado."
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Molho à bolonhesa",
+            "tags": ["salgado", "molho"],
+            "image": "../images/molho_bolonhesa.png",
+            "ingredients":[
+                "1 cebola picada",
+                "2 dentes de alho amassados",
+                "1 lata de molho de tomate",
+                "a mesma medida de água",
+                "500gr de carne moída",
+                "sal e pimenta a gosto"
+            ],
+            "preparation": [
+                "Em uma panela, aqueça o óleo e refogue a cebola e o alho.",
+                "Junte a carne moída e deixe cozinhar.",
+                "Acrescente o molho, a água e deixe apurar por 15 minutos em fogo médio, até ficar cremoso.",
+                "Sirva da forma que preferir."
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Crepioca",
+            "tags": ["salgado", "fit"],
+            "image": "../images/crepioca.png",
+            "ingredients":[
+                "1 ovo",
+                "1 colher de sopa de tapioca",
+                "sal a gosto",
+                "Queijo branco",
+                "Tomate"
+            ],
+            "preparation": [
+                "Em um recepiente, bata bem o ovo e adicione a tapioca.",
+                "Em uma frigideira levemente quente, coloque todo o conteudo e mantenha em fogo baixo.",
+                "Doure os dois lados.",
+                "Recheie com o queijo e o tomate."
+            ]
+        }
+
+    ]
+}
