@@ -2,6 +2,8 @@ import { NavLink } from "react-router-dom";
 import logo from "../images/logo.png";
 import profile from "../images/profile.png";
 import { Classes } from "../utils/tailwindPredefs";
+import { PiChefHatLight } from "react-icons/pi";
+import { PiUserCircleLight } from "react-icons/pi";
 
 const Header: React.FC = () => {
   return (
@@ -9,7 +11,7 @@ const Header: React.FC = () => {
       <nav className="flex items-center justify-between py-2 px-6 ">
         <div className="flex items-center">
           <NavLink to="/">
-            <img className="" src={logo} alt="Logo da página" />
+            <PiChefHatLight className="text-5xl text-bgWhite hover:text-title transition-all" />
           </NavLink>
         </div>
         <div className="hidden md:flex flex-grow justify-center font-medium">
@@ -26,11 +28,13 @@ const Header: React.FC = () => {
             <NavLink to="/fit">
               <li className={Classes.hoverMenu}>Fit</li>
             </NavLink>
-            <li className={Classes.hoverMenu}>Sobre nós</li>
+            <NavLink to="/us">
+              <li className={Classes.hoverMenu}>Sobre nós</li>
+            </NavLink>
           </ul>
         </div>
         <div>
-          <img className="w-7" src={profile} alt="Icone de perfil" />
+          <PiUserCircleLight className="text-4xl text-bgWhite hover:text-title transition-all" />
         </div>
       </nav>
     </header>

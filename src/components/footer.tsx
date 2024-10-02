@@ -4,6 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { AiFillTikTok, AiFillFacebook } from "react-icons/ai";
 import { Classes } from "../utils/tailwindPredefs";
 import { NavLink } from "react-router-dom";
+import { PiChefHatLight } from "react-icons/pi";
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
       <div className="flex flex-col justify-center items-center text-center px-6">
         <div>
           <NavLink to="/">
-            <img className="" src={logo} alt="Logo da página" />
+            <PiChefHatLight className="text-6xl text-title hover:text-bgDark" />
           </NavLink>
         </div>
         <h1 className="text-bgWhite font-medium text-xl pt-2">
