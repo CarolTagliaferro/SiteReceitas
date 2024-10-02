@@ -12,6 +12,10 @@ module.exports = {
         title: '#77080A',
         font: '#F0B8A7',
         
+      },
+
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif']
       }
     },
   },
