@@ -4,7 +4,7 @@
         {
             "id": 1,
             "name": "Bolo de cenoura",
-            "tags": ["doce", "bolo", "forno"],
+            "tags": ["doce", "bolo"],
             "image": "../images/bolo_cenoura.png",
             "ingredients":[
                 "3 cenouras médias",
@@ -45,7 +45,7 @@
         {
             "id": 3,
             "name": "Molho à bolonhesa",
-            "tags": ["salgado", "molho"],
+            "tags": ["salgada", "molho"],
             "image": "../images/molho_bolonhesa.png",
             "ingredients":[
                 "1 cebola picada",
@@ -65,12 +65,12 @@
         {
             "id": 4,
             "name": "Crepioca",
-            "tags": ["salgado", "fit"],
+            "tags": [ "fit", "salgada"],
             "image": "../images/crepioca.png",
             "ingredients":[
                 "1 ovo",
                 "1 colher de sopa de tapioca",
-                "sal a gosto",
+                "Sal a gosto",
                 "Queijo branco",
                 "Tomate"
             ],
@@ -79,6 +79,121 @@
                 "Em uma frigideira levemente quente, coloque todo o conteudo e mantenha em fogo baixo.",
                 "Doure os dois lados.",
                 "Recheie com o queijo e o tomate."
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Carne de panela",
+            "tags": [ "salgada"],
+            "image": "../images/carne_panela.png",
+            "ingredients":[
+                "1 quilo de de miolo de acém em cubos",
+                "1 cebola picada",
+                "2 dentes de alho picados",
+                "Sal e pimenta a gosto",
+                "Cheiro verde (opcional)"
+            ],
+            "preparation": [
+                "Na panela de pressão, coloque 2 colheres de sopa de óleo e doure a cebola e o dentes de alho picados.",
+                "Depois, acrescente 1 quilo de miolo de acém em cubos e refogue.",
+                "Em seguida, adicione sal a gosto, pimenta-do-reino a gosto e água suficiente para cobrir a carne. Feche a panela de pressão e deixe cozinhar por 20 minutos.",
+                "Espere a pressão sair, abra a panela e adicione o cheiro verde."
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Strogonoff de carne",
+            "tags": [ "salgada"],
+            "image": "../images/strogonoff.png",
+            "ingredients":[
+                "400g de filé mignon em tiras",
+                "1/2 cebola picada",
+                "3 tomates picados",
+                "Champgnon",
+                "Sal e pimenta a gosto",
+                "1 caixa de creme de leite"
+            ],
+            "preparation": [
+                "Na panela, coloque o óleo e doure a cebola",
+                "Depois, acrescente a carne e refogue.",
+                "Em seguida, adicione sal a gosto, pimenta-do-reino a gosto, os tomates picados, o champgnon e deixe cozinhar por cerca de 15 minutos. ",
+                "Depois de cozido, desligue o fogo, adicione o creme de leite e mexa bem.",
+                "Sirva como preferir!"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Pudim de leite condensado",
+            "tags": [ "doce"],
+            "image": "../images/pudim.png",
+            "ingredients":[
+                "1 lata de leite condensado",
+                "1 lata de leite (medida da lata de leite condensado)",
+                "3 ovos inteiros",
+                "1 xícara (chá) de açúcar",
+                "1/2 xícara de água"
+            ],
+            "preparation": [
+                "Na liquidificador, bata os ovos, o leite condensado e o leite por cerca de 10 minutos",
+                "Para calda: Derreta o açúcar na panela até ficar moreno, acrescente a água aos poucos e deixe engrossar.",
+                "Coloque a calda em uma forma redonda e leve a geladeira por 10 minutos.",
+                "Retire da geladeira e despeje a mistura do liquidificador.",
+                "Leve a forma em banho maria ao forno médio por 45 minutos.",
+                "Deixe esfriar e desenforme."
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Mousse de chocolate",
+            "tags": [ "doce"],
+            "image": "../images/mousse_chocolate.png",
+            "ingredients":[
+                "200 g de chocolate meio amargo",
+                "2 colheres (sopa) de açúcar",
+                "3 ovos",
+                "1 caixa de creme de leite"
+            ],
+            "preparation": [
+                "Bata as gemas até dobrarem de volume.",
+                "Junte o açúcar e continue batendo.",
+                "Derreta o chocolate e acrescente à gemada.",
+                "Junte o creme de leite, batendo sempre.",
+                "Por fim, acrescente as claras em neve (bem batidas mesmo), misturando rapidamente na batedeira.",
+                "Leve à geladeira e sirva-se!"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Peito de frango na AirFryer",
+            "tags": [ "fit", "salgada"],
+            "image": "../images/frango_fit.png",
+            "ingredients":[
+                "500gr peito de frango limpo",
+                "Páprica defumada a gosto",
+                "1/2 limão",
+                "Sal e pimenta a gosto"
+            ],
+            "preparation": [
+                "Tempere o frango com o sal, páprica e pimenta e deixe marinar (recomendo no mínimo 2 horas).",
+                "Arrume na Air fryer e ligue por 15 minutos a 180°c",
+                "Vire o frango e aumente a temperatura para 200°c, e ligue a Air fryer por mais uns 5 minutos ou até dourar."
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Panqueca de banana fit",
+            "tags": [ "fit", "doce"],
+            "image": "../images/panqueca_banana.png",
+            "ingredients":[
+                "1 banana",
+                "2 colheres de aveia",
+                "1 colher de cacau em pó 100%",
+                "2 ovos"
+            ],
+            "preparation": [
+                "Amasse a banana, depois coloque em um recipiente fundo, bata com o garfo os 2 ovos junto com a banana, depois acrescente a aveia e o cacau.",
+                "Bata tudo com o garfo e depois coloque na frigideira untada e antiaderente, tampe a frigideira e vire após dourar.",
+                "E quando tiver pronta, você pode polvilhar coco ralado sobre as panquecas."
             ]
         }
 
