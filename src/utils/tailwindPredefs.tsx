@@ -7,7 +7,7 @@ export const Classes = {
   hoverMenu: "transition-all hover:text-title",
 
   //Footer
-  iconClass: "text-3xl text-title hover:text-bgDark transition-all",
+  iconClass: "text-3xl text-bgWhite hover:text-font transition-all",
 
   //Página receita
   rdH2: "text-xl font-semibold text-title font-poppins",

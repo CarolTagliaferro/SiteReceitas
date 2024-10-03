@@ -8,11 +8,11 @@ import { PiChefHatLight } from "react-icons/pi";
 
 const Footer = () => {
   return (
-    <footer className="bg-bgLight py-3 z-20">
+    <footer className="bg-bgDark py-3 z-20">
       <div className="flex flex-col justify-center items-center text-center px-6">
         <div>
           <NavLink to="/">
-            <PiChefHatLight className="text-6xl text-title hover:text-bgDark" />
+            <PiChefHatLight className="text-6xl text-bgWhite hover:text-bgLight" />
           </NavLink>
         </div>
         <h1 className="text-bgWhite font-medium text-xl pt-2">
@@ -30,7 +30,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="border-t border-title mt-2">
+      <div className="border-t border-bgLight mt-2">
         <p className="pt-3 text-center font-light text-bgWhite">
           Copyright ©2024. All rights reserved
         </p>

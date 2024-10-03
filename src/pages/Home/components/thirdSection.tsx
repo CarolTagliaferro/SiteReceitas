@@ -23,7 +23,7 @@ const ThirdSection = () => {
             />
             <button
               type="submit"
-              className="rounded-lg bg-bgLight py-3 px-5 text-bgWhite ml-1 hover:shadow-lg"
+              className="rounded-lg bg-bgLight py-3 px-6 text-bgWhite ml-1 hover:shadow-lg"
             >
               Enviar
             </button>
