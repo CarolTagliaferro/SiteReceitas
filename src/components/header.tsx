@@ -1,6 +1,4 @@
 import { NavLink } from "react-router-dom";
-import logo from "../images/logo.png";
-import profile from "../images/profile.png";
 import { Classes } from "../utils/tailwindPredefs";
 import { PiChefHatLight } from "react-icons/pi";
 import { PiUserCircleLight } from "react-icons/pi";

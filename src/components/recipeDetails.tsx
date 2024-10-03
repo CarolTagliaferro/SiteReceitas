@@ -19,9 +19,7 @@ const RecipeDetails: React.FC = () => {
     <div className="m-20 font-sans">
       <div className="flex items-center">
         <div>
-          <h1 className="text-3xl font-bold text-title font-poppins">
-            {recipe.name}
-          </h1>
+          <h1 className="text-3xl font-bold text-title">{recipe.name}</h1>
           <img
             className="my-4 object-cover w-4/5 rounded-xl"
             src={recipe.image}

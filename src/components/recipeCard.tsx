@@ -15,13 +15,13 @@ interface RecipeCardProps {
 const RecipeCard: React.FC<RecipeCardProps> = ({ recipes }) => {
   return (
     <Link to={`/recipe/${recipes.id}`}>
-      <div className="bg-bgWhite w-80 rounded-lg shadow-md p-2 hover:brightness-90">
+      <div className="bg-bgWhite font-poppins w-80 rounded-lg shadow-md p-2 hover:brightness-90 transition-all">
         <img
           src={recipes.image}
           alt={recipes.name}
           className="w-96 h-48 object-cover rounded-t-lg"
         />
-        <h2 className="mt-2 text-lg text-title font-semibold">
+        <h2 className="mt-2 text-md text-title font-semibold">
           {recipes.name}
         </h2>
       </div>

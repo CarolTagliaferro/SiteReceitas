@@ -2,7 +2,7 @@ import React from "react";
 
 const ThirdSection = () => {
   return (
-    <div className="my-10 flex justify-center items-center font-poppins">
+    <div className="my-10 flex justify-center items-center">
       <div className="bg-bgDark w-3/4 h-auto rounded-3xl px-16 py-10 flex items-center justify-between">
         <div>
           <h1 className="text-bgWhite text-3xl font-semibold">
