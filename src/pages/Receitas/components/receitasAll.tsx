@@ -32,11 +32,11 @@ const ReceitasAll: React.FC = () => {
   return (
     <div>
       <div className="bg-bgLight py-2 my-2">
-        <div className="mx-14 flex justify-between">
+        <div className="mx-14 flex justify-center">
           <select
             value={selectedTag}
             onChange={(e) => setSelectedTag(e.target.value)}
-            className="p-2 outline-none rounded-md"
+            className="p-2 outline-none rounded-md mr-5"
           >
             <option value="">Todas</option>
             {allTags.map((tag) => (
