@@ -4,7 +4,7 @@
         {
             "id": 1,
             "name": "Bolo de cenoura",
-            "tags": ["doce", "bolo"],
+            "tags": ["Doces"],
             "image": "../images/bolo_cenoura.png",
             "ingredients":[
                 "3 cenouras médias",
@@ -28,7 +28,7 @@
         {
             "id": 2,
             "name": "Brigadeiro",
-            "tags": ["doce"],
+            "tags": ["Doces"],
             "image": "../images/brigadeiro.png",
             "ingredients":[
                 "1 caixa de leite condensado",
@@ -45,7 +45,7 @@
         {
             "id": 3,
             "name": "Molho à bolonhesa",
-            "tags": ["salgada", "molho"],
+            "tags": ["Salgadas"],
             "image": "../images/molho_bolonhesa.png",
             "ingredients":[
                 "1 cebola picada",
@@ -65,7 +65,7 @@
         {
             "id": 4,
             "name": "Crepioca",
-            "tags": [ "fit", "salgada"],
+            "tags": [ "Fit", "Salgadas"],
             "image": "../images/crepioca.png",
             "ingredients":[
                 "1 ovo",
@@ -84,7 +84,7 @@
         {
             "id": 5,
             "name": "Carne de panela",
-            "tags": [ "salgada"],
+            "tags": [ "Salgadas"],
             "image": "../images/carne_panela.png",
             "ingredients":[
                 "1 quilo de de miolo de acém em cubos",
@@ -103,7 +103,7 @@
         {
             "id": 6,
             "name": "Strogonoff de carne",
-            "tags": [ "salgada"],
+            "tags": [ "Salgadas"],
             "image": "../images/strogonoff.png",
             "ingredients":[
                 "400g de filé mignon em tiras",
@@ -124,7 +124,7 @@
         {
             "id": 7,
             "name": "Pudim de leite condensado",
-            "tags": [ "doce"],
+            "tags": [ "Doces"],
             "image": "../images/pudim.png",
             "ingredients":[
                 "1 lata de leite condensado",
@@ -145,7 +145,7 @@
         {
             "id": 8,
             "name": "Mousse de chocolate",
-            "tags": [ "doce"],
+            "tags": [ "Doces"],
             "image": "../images/mousse_chocolate.png",
             "ingredients":[
                 "200 g de chocolate meio amargo",
@@ -165,7 +165,7 @@
         {
             "id": 9,
             "name": "Peito de frango na AirFryer",
-            "tags": [ "fit", "salgada"],
+            "tags": [ "Fit", "Salgadas"],
             "image": "../images/frango_fit.png",
             "ingredients":[
                 "500gr peito de frango limpo",
@@ -182,7 +182,7 @@
         {
             "id": 10,
             "name": "Panqueca de banana fit",
-            "tags": [ "fit", "doce"],
+            "tags": [ "Fit", "Doces"],
             "image": "../images/panqueca_banana.png",
             "ingredients":[
                 "1 banana",

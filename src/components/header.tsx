@@ -17,14 +17,11 @@ const Header: React.FC = () => {
             <NavLink to="/">
               <li className={Classes.hoverMenu}>Home</li>
             </NavLink>
-            <NavLink to="/doces">
-              <li className={Classes.hoverMenu}>Doces</li>
+            <NavLink to="/receitas">
+              <li className={Classes.hoverMenu}>Receitas</li>
             </NavLink>
-            <NavLink to="/salgadas">
-              <li className={Classes.hoverMenu}>Salgados</li>
-            </NavLink>
-            <NavLink to="/fit">
-              <li className={Classes.hoverMenu}>Fit</li>
+            <NavLink to="/dicas">
+              <li className={Classes.hoverMenu}>Dicas</li>
             </NavLink>
             <NavLink to="/us">
               <li className={Classes.hoverMenu}>Sobre nós</li>
