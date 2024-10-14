@@ -1,16 +1,26 @@
 import React from "react";
-import health from "../images/health.png";
 import { Classes } from "../utils/tailwindPredefs";
+import bnHealth from "../images/bg_health.png";
 
 const ImunidadeAlimentos = () => {
   return (
-    <div className="mx-20 my-10">
-      <div className="flex justify-between">
-        <div className="w-2/3">
-          <h1 className="font-bold text-3xl pb-3 text-title">
+    <div className="">
+      <div className="relative">
+        <img
+          className="w-full h-auto brightness-50"
+          src={bnHealth}
+          alt="Pessoa cozinhando"
+        />
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-bgWhite z-10">
+          <h1 className="font-semibold text-5xl">
             Fortaleça sua Imunidade com Alimentos Nutritivos
           </h1>
-          <p className="text-gray-700 pb-5">
+        </div>
+      </div>
+      <div className="mx-24 my-10">
+        <div>
+          <p className="text-gray-700 pb-7">
             Manter o sistema imunológico forte é essencial para proteger o corpo
             contra doenças e garantir mais energia e disposição. Uma alimentação
             balanceada, rica em legumes, verduras e frutas, é uma das melhores
@@ -62,7 +72,7 @@ const ImunidadeAlimentos = () => {
             boa saúde do sistema imunológico. Outro ponto importante é dormir
             bem: o sono adequado permite que o corpo se regenere, fortalecendo
             as defesas naturais.
-            <br />
+            <br /> <br />
             Cuidar da saúde mental também é essencial para manter a imunidade
             alta. Reduzir o estresse, seja através de práticas como meditação,
             yoga ou até caminhadas ao ar livre, ajuda a manter o corpo e a mente
@@ -72,13 +82,6 @@ const ImunidadeAlimentos = () => {
             do estresse, é a melhor maneira de manter o corpo protegido contra
             doenças.
           </p>
-        </div>
-        <div>
-          <img
-            src={health}
-            alt="Bowl de salada"
-            className="w-11/12 rounded-xl brightness-75"
-          />
         </div>
       </div>
     </div>

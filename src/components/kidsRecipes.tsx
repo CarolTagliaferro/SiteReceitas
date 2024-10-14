@@ -2,6 +2,7 @@ import React from "react";
 import kids from "../images/kids.png";
 import RecipeCard from "./recipeCard";
 import recipes from "../services/recipes.json";
+import bnKids from "../images/bg_kids.png";
 
 interface Recipe {
   id: number;
@@ -16,12 +17,22 @@ const KidsRecipes: React.FC = () => {
   );
 
   return (
-    <div className="mx-20 my-10">
-      <div className="flex justify-between">
-        <div className="w-3/5">
-          <h1 className="text-3xl text-title font-bold pb-3">
+    <div>
+      <div className="relative">
+        <img
+          className="w-full h-auto brightness-50"
+          src={bnKids}
+          alt="Pessoa cozinhando"
+        />
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-bgWhite z-10">
+          <h1 className="text-5xl font-semibold">
             Receitas Fáceis e Divertidas para Cozinhar com Crianças
           </h1>
+        </div>
+      </div>
+      <div className="mx-20 my-10">
+        <div>
           <p className="text-gray-700">
             Cozinhar com crianças não é apenas uma atividade divertida, mas
             também uma oportunidade para ensinar sobre alimentação saudável e
@@ -46,21 +57,14 @@ const KidsRecipes: React.FC = () => {
             memórias inesquecíveis. Experimente essas ideias e aproveite cada
             momento na cozinha!
           </p>
-          <h2 className="font-semibold text-xl py-5 text-bgDark">
+          <h2 className="font-semibold text-2xl py-5 text-title">
             Confira abaixo algumas receitas:
           </h2>
-          <div className="grid grid-cols-2 gap-y-3">
+          <div className="flex justify-center gap-10">
             {kidsRecipes.map((recipes: Recipe) => (
               <RecipeCard key={recipes.id} recipes={recipes} />
             ))}
           </div>
-        </div>
-        <div>
-          <img
-            src={kids}
-            alt="Criança cozinhando"
-            className="w-11/12 rounded-xl brightness-75"
-          />
         </div>
       </div>
     </div>

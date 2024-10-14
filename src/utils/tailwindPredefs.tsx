@@ -14,8 +14,7 @@ export const Classes = {
 
   //Página imunidade
   li: "pb-2 text-gray-700",
-  h2Imuni:
-    "font-semibold text-xl text-bgDark pb-2 underline underline-offset-2",
+  h2Imuni: "font-semibold text-2xl text-title pb-2",
 };
 
 export default tailwindPredefs;
