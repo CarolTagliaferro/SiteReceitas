@@ -11,7 +11,8 @@ module.exports = {
         bgWhite: '#F4F4F4',
         title: '#77080A',
         font: '#F0B8A7',
-        
+        bgRandomHome: '#f2d7d6',
+        titleRandom: '#934642'
       },
 
       fontFamily: {

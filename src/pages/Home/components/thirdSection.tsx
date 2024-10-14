@@ -1,49 +1,53 @@
-import React from "react";
-import criancaCozinhando from "../../../images/criancaCozinha.png";
-import imunidade from "../../../images/imunidade.png";
-import { NavLink } from "react-router-dom";
+import React, { useState } from "react";
+import RecipeCard from "../../../components/recipeCard";
+import recipes from "../../../services/recipes.json";
 
-const ThirdSection = () => {
+interface Recipe {
+  id: number;
+  name: string;
+  tags: string[];
+  image: string;
+}
+
+const ThirdSection: React.FC = () => {
+  const [randomRecipe, setRandomRecipe] = useState<Recipe | null>(null);
+
+  const getRandomRecipe = () => {
+    const randomIndex = Math.floor(Math.random() * recipes.recipes.length);
+    const selectedRecipe = recipes.recipes[randomIndex];
+    setRandomRecipe(selectedRecipe);
+  };
+
   return (
-    <div className="container mx-auto my-16">
-      <div className="grid grid-cols-2 gap-8">
-        <NavLink to="/kids" className="flex">
-          <img
-            src={criancaCozinhando}
-            alt="Criança cozinhando"
-            className="w-80 h-auto rounded-xl brightness-50 transition-all duration-300 hover:scale-105"
-          />
-          <div className="ml-3">
-            <h2 className="font-semibold text-xl text-title">
-              Receitas para crianças!
-            </h2>
-            <p className="pt-4 text-gray-800">
-              Cozinhar com crianças pode ser uma atividade super divertida.
-              Pensando nisso, criamos este conteúdo com receitas fáceis e
-              práticas para que elas possam preparar em casa.
-            </p>
-          </div>
-        </NavLink>
-
-        <NavLink to="/imuni" className="flex">
-          <img
-            src={imunidade}
-            alt="Alimentos saudáveis"
-            className="w-80 h-auto rounded-xl brightness-50 transition-all duration-300 hover:scale-105"
-          />
-          <div className="ml-3">
-            <h2 className="font-semibold text-xl text-title">
-              Alimentos que aumentam a imunidade!
-            </h2>
-            <p className="pt-4 text-gray-800">
-              Fortalecer a imunidade é essencial para proteger o corpo contra
-              doenças. Alimentos nutritivos como legumes, verduras e frutas são
-              ricos em vitaminas e ajudam a manter o organismo saudável e
-              protegido.
-            </p>
-          </div>
-        </NavLink>
+    <div className="flex flex-col items-center text-center bg-bgRandomHome py-6 my-10">
+      <div className="mb-4">
+        <h2 className="text-3xl font-bold text-titleRandom pb-1">
+          Quer testar uma receita nova e não sabe qual?
+        </h2>
+        <h3 className="text-lg text-gray-700">
+          Clique no botão abaixo e teste nosso gerador de receitas aleatórias!
+        </h3>
       </div>
+      <button
+        onClick={getRandomRecipe}
+        className="bg-titleRandom text-white px-4 py-3 mb-3 text-lg rounded-xl hover:bg-bgDark transition-all"
+      >
+        Gerar receita aleatória
+      </button>
+
+      {randomRecipe ? (
+        <div>
+          <RecipeCard key={randomRecipe.id} recipes={randomRecipe} />
+        </div>
+      ) : (
+        <div className="pt-3">
+          <div className="w-80 h-52 border-2 border-solid border-titleRandom bg-bgWhite flex flex-col justify-center items-center rounded-xl">
+            <p className="text-titleRandom font-medium">
+              Descubra sua receita!
+            </p>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
