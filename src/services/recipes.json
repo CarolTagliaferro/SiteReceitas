@@ -195,7 +195,90 @@
                 "Bata tudo com o garfo e depois coloque na frigideira untada e antiaderente, tampe a frigideira e vire após dourar.",
                 "E quando tiver pronta, você pode polvilhar coco ralado sobre as panquecas."
             ]
+        },
+        {
+            "id": 11,
+            "name": "Salada de frutas cremosa",
+            "tags": [ "Kids", "Doces"],
+            "image": "../images/salada_frutas.png",
+            "ingredients":[
+                "Frutas de sua preferência (morango, uva, kiwi, mamão, etc)",
+                "1 lata de leite condensado",
+                "1 caixa de creme de leite",
+                "Suco de um limão"
+            ],
+            "preparation": [
+                "Chame as crianças para lavar todas as frutas. Isso é bem importante antes de iniciar os cortes.",
+                "Em seguida, comece a cortar as frutas em pedaços pequenos. Se forem crianças maiores, ensine a cortar com cuidado para evitar machucados.",
+                "Coloque todos os pedaços em uma tigela grande e esprema o suco de 1 limão para evitar que as frutas oxidem.",
+                "Em outra tigela, misture o leite condensado e o creme de leite até obter uma mistura homogênea.",
+                "Despeje o creme sobre as frutas e misture delicadamente até que todas as frutas estejam cobertas com o creme.",
+                "Leve a salada de frutas à geladeira por alguns minutos para ficar fresca e cremosa."
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Pirulitos de Bolacha",
+            "tags": [ "Kids", "Doces"],
+            "image": "../images/pirulito_bolacha.jpg",
+            "ingredients":[
+                "Bolachas redondas de sua preferência",
+                "Palitos de pirulito",
+                "Chocolate derretido (branco, ao leite ou meio amargo)",
+                "Confeitos coloridos ou granulados para decorar"
+            ],
+            "preparation": [
+                "Insira os palitos de pirulito nos biscoitos, certificando-se de que estejam bem fixados.",
+                "Derreta o chocolate de sua preferência em banho-maria ou no micro-ondas, mexendo bem até ficar liso e homogêneo.",
+                "Segure o biscoito pelo palito e mergulhe-o no chocolate derretido, cobrindo-o completamente. Deixe o excesso de chocolate escorrer.",
+                "Enquanto o chocolate ainda estiver molhado, decore o pirulito com confeitos coloridos ou granulados.",
+                "Coloque os pirulitos de biscoito em uma bandeja forrada com papel manteiga e deixe-os descansar até que o chocolate endureça."
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Pizza de bolo de cenoura",
+            "tags": [ "Kids", "Doces"],
+            "image": "../images/pizza_cenoura.png",
+            "ingredients":[
+                "2 ovos",
+                "1 cenoura média",
+                "1/2 xícara de óleo",
+                "1 xícara de açúcar",
+                "1 xícara de farinha de trigo",
+                "1 colher (chá) de fermento em pó",
+                "1 caixa de leite condensado",
+                "3 colheres de chocolate em pó",
+                "Granulados ou confetes coloridos"
+            ],
+            "preparation": [
+                "Bata os ovos, cenoura, óleo e o açúcar por 4 minutos. Adicione o trigo e o fermento e misture bem.",
+                "Unte o tabuleiro de pizza com manteiga e trigo. Despeje a massa e leve-a ao forno preaquecido à 180° por 20 minutos.",
+                "Para o brigadeiro: Misture o leite condensado e o chocolate em pó em fogo baixo até desgrudar da panela.",
+                "Decore como preferir com o granulado e os confetes. Está pronto!"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Mini pizza",
+            "tags": [ "Kids", "Salgadas"],
+            "image": "../images/mini_pizza.png",
+            "ingredients":[
+                "1 pacote de massa para mini pizza",
+                "Molho de tomate",
+                "Mussarela ralada",
+                "Presunto ralado",
+                "Orégano"
+            ],
+            "preparation": [
+                "Espalha a massa de tomate sobre a massa pronta",
+                "Cubra a pizza com o queijo.",
+                "Adicione o presunto e o orégano",
+                "Leve ao forno por cerca de 15 minutos, observe se todo o queijo derreteu e está pronta!"
+            ]
         }
+
+
 
     ]
 }

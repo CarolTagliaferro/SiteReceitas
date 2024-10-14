@@ -77,7 +77,7 @@ const ImunidadeAlimentos = () => {
           <img
             src={health}
             alt="Bowl de salada"
-            className="w-3/4 rounded-xl brightness-75"
+            className="w-11/12 rounded-xl brightness-75"
           />
         </div>
       </div>
