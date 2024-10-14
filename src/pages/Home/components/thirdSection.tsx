@@ -41,7 +41,7 @@ const ThirdSection: React.FC = () => {
         </div>
       ) : (
         <div className="pt-3">
-          <div className="w-80 h-52 border-2 border-solid border-titleRandom bg-bgWhite flex flex-col justify-center items-center rounded-xl">
+          <div className="w-80 h-52 border-2 border-solid border-bgDark bg-bgWhite flex flex-col justify-center items-center rounded-xl">
             <p className="text-titleRandom font-medium">
               Descubra sua receita!
             </p>

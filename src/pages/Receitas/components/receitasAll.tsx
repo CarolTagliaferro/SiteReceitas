@@ -54,7 +54,7 @@ const ReceitasAll: React.FC = () => {
           />
         </div>
       </div>
-      <div className="grid grid-cols-5 gap-5 justify-items-center mx-10 my-5">
+      <div className="grid grid-cols-4 gap-5 justify-items-center mx-10 my-5">
         {filteredRecipes.length > 0 ? (
           filteredRecipes.map((receita: Recipe) => (
             <RecipeCard key={receita.id} recipes={receita} />
