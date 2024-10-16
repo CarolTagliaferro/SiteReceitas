@@ -15,7 +15,7 @@ const ReceitasAll: React.FC = () => {
 
   const allTags = Array.from(
     new Set(recipes.recipes.flatMap((recipe) => recipe.tags))
-  );
+  ).filter((tags) => tags !== "Kids");
 
   const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchRecipe(event.target.value);
