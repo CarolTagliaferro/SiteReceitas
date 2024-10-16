@@ -17,9 +17,9 @@ const SecondSection: React.FC = () => {
           perPage: 5,
           drag: "free",
         }}
-        className="my-10 h-72"
+        className="my-10"
       >
-        {recipes.recipes.slice(0, 6).map((recipe) => (
+        {recipes.recipes.slice(0, 10).map((recipe) => (
           <SplideSlide key={recipe.id}>
             <RecipeCard recipes={recipe} />
           </SplideSlide>

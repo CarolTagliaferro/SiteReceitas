@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import RecipeCard from "../../../components/recipeCard";
 import recipes from "../../../services/recipes.json";
+import { Classes } from "../../../utils/tailwindPredefs";
 
 interface Recipe {
   id: number;
@@ -32,11 +33,11 @@ const ReceitasAll: React.FC = () => {
   return (
     <div>
       <div className="bg-bgLight py-2 my-2">
-        <div className="mx-14 flex justify-center">
+        <div className="mx-24 flex justify-between">
           <select
             value={selectedTag}
             onChange={(e) => setSelectedTag(e.target.value)}
-            className="p-2 outline-none rounded-md mr-5"
+            className={Classes.filters}
           >
             <option value="">Todas</option>
             {allTags.map((tag) => (
@@ -50,7 +51,7 @@ const ReceitasAll: React.FC = () => {
             placeholder="Pesquise aqui"
             value={searchRecipe}
             onChange={handleSearchChange}
-            className="p-2 rounded mx-2 outline-none"
+            className={Classes.filters}
           />
         </div>
       </div>

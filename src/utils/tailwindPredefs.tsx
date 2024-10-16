@@ -11,6 +11,7 @@ export const Classes = {
 
   //Página receita
   rdH2: "text-xl font-semibold text-title font-poppins",
+  filters: "p-2 outline-none rounded-lg",
 
   //Página imunidade
   li: "pb-2 text-gray-700",
