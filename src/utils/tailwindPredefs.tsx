@@ -15,6 +15,11 @@ export const Classes = {
   //Página imunidade
   li: "pb-2 text-gray-700",
   h2Imuni: "font-semibold text-2xl text-title pb-2",
+
+  //Sobre nós
+  iconBox: "flex flex-col items-center",
+  icon: "text-titleRandom w-auto h-24",
+  pIcon: "text-titleRandom text-lg",
 };
 
 export default tailwindPredefs;
