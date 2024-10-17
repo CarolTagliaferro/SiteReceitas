@@ -3,6 +3,7 @@ import utensilios from "../../../images/utensilios.png";
 import truques from "../../../images/truques.png";
 import limpeza from "../../../images/limpeza.png";
 import rendaExtra from "../../../images/rendaExtra.png";
+import { NavLink } from "react-router-dom";
 
 const FirstSectionDicas = () => {
   return (
@@ -19,38 +20,50 @@ const FirstSectionDicas = () => {
         </p>
       </div>
       <div className="flex gap-4">
-        <div className="bg-bgWhite font-poppins w-72 rounded-lg shadow-md p-2 hover:brightness-90 transition-all">
-          <img
-            src={utensilios}
-            alt="Utensílios"
-            className="w-80 h-48 object-cover rounded-t-lg"
-          />
-          <h2 className="mt-2 text-lg text-title font-semibold">Utensilios</h2>
-        </div>
-        <div className="bg-bgWhite font-poppins w-72 rounded-lg shadow-md p-2 hover:brightness-90 transition-all">
-          <img
-            src={truques}
-            alt="Truques"
-            className="w-80 h-48 object-cover rounded-t-lg"
-          />
-          <h2 className="mt-2 text-lg text-title font-semibold">Truques</h2>
-        </div>
-        <div className="bg-bgWhite font-poppins w-72 rounded-lg shadow-md p-2 hover:brightness-90 transition-all">
-          <img
-            src={limpeza}
-            alt="Limpeza"
-            className="w-80 h-48 object-cover rounded-t-lg"
-          />
-          <h2 className="mt-2 text-lg text-title font-semibold">Limpeza</h2>
-        </div>
-        <div className="bg-bgWhite font-poppins w-72 rounded-lg shadow-md p-2 hover:brightness-90 transition-all">
-          <img
-            src={rendaExtra}
-            alt="Utensílios"
-            className="w-80 h-48 object-cover rounded-t-lg"
-          />
-          <h2 className="mt-2 text-lg text-title font-semibold">Renda extra</h2>
-        </div>
+        <NavLink to="/utensilios">
+          <div className="bg-bgWhite font-poppins w-72 rounded-lg shadow-md p-2 hover:brightness-90 transition-all">
+            <img
+              src={utensilios}
+              alt="Utensílios"
+              className="w-80 h-48 object-cover rounded-t-lg"
+            />
+            <h2 className="mt-2 text-lg text-title font-semibold">
+              Utensilios
+            </h2>
+          </div>
+        </NavLink>
+        <NavLink to="/truques">
+          <div className="bg-bgWhite font-poppins w-72 rounded-lg shadow-md p-2 hover:brightness-90 transition-all">
+            <img
+              src={truques}
+              alt="Vegetais e legumes"
+              className="w-80 h-48 object-cover rounded-t-lg"
+            />
+            <h2 className="mt-2 text-lg text-title font-semibold">Truques</h2>
+          </div>
+        </NavLink>
+        <NavLink to="/limpeza">
+          <div className="bg-bgWhite font-poppins w-72 rounded-lg shadow-md p-2 hover:brightness-90 transition-all">
+            <img
+              src={limpeza}
+              alt="Limpeza"
+              className="w-80 h-48 object-cover rounded-t-lg"
+            />
+            <h2 className="mt-2 text-lg text-title font-semibold">Limpeza</h2>
+          </div>
+        </NavLink>
+        <NavLink to="/renda">
+          <div className="bg-bgWhite font-poppins w-72 rounded-lg shadow-md p-2 hover:brightness-90 transition-all">
+            <img
+              src={rendaExtra}
+              alt="Cupcakes"
+              className="w-80 h-48 object-cover rounded-t-lg"
+            />
+            <h2 className="mt-2 text-lg text-title font-semibold">
+              Renda extra
+            </h2>
+          </div>
+        </NavLink>
       </div>
     </div>
   );
